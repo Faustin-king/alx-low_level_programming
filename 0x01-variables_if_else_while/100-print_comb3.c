@@ -18,7 +18,7 @@ int main(void)
 
 	for (i = '0'; i < '9'; i++)
 	{
-		for (j = i + 1; J <= '9'; J++)
+		for (j = i + 1; j <= '9'; J++)
 		{
 			if (i != j)
 			{
@@ -36,7 +36,7 @@ int main(void)
 		}
 	}
 
-	puchar('\n');
+	putchar('\n');
 
 	return (0);
 }
