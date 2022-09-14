@@ -23,12 +23,6 @@ void print_alphabet_X10(void)
 	} 
 }
 
-/**
- * main - check main
- *
- * Return: Always 0 (Success)
- *
- */
 int main(void)
 {
 	print_alphabet_x10();
