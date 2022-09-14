@@ -22,3 +22,16 @@ void print_alphabet_X10(void)
 		_putchar('\n');
 	} 
 }
+
+/**
+ * main - check main
+ *
+ * Return: Always 0 (Success)
+ *
+ */
+int main(void)
+{
+	print_alphabet_x10();
+
+	return (0);
+}
