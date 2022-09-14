@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _isalpha -  checks for alphabetic character.
@@ -22,8 +22,6 @@ int _isalpha(int c)
 			if (c == lower || c == upper)
 
 				return (1);
-			else
-				return (0);
 		}
 	}
 
