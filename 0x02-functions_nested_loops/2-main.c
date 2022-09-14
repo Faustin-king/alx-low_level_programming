@@ -9,7 +9,7 @@
 
 int main(voi)
 {
-	print_alphabet_x10.c();
+	print_alphabet_x10();
 
 	return (0);
 }
