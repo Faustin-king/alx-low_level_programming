@@ -6,7 +6,7 @@
  *
  * @c: An input character
  *
- * Return: 0 if is uppercase or 1 if is lowercase (Success)
+ * Return: 1 if is lowercase or 0 if is uppercase (Success)
  */
 
 int _islower(int c)
