@@ -5,7 +5,6 @@
  *
  * followed by new line.
  *
- * Return: Nothing
  */
 
 void print_alphabet_X10(void)
