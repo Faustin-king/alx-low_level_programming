@@ -1,6 +1,5 @@
+#include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
-
 
 /**
  * print_to_98 - check main
@@ -27,7 +26,7 @@ void print_to_98(int n)
 			printf(",");
 		}
 
-		printf('\n');
+		printf("\n");
 	} else
 	{
 
@@ -41,7 +40,7 @@ void print_to_98(int n)
 			printf(",");
 		}
 
-		printf('\n');
+		printf("\n");
 
 	}
 
