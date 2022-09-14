@@ -11,7 +11,7 @@
  *
  */
 
-int print_ sign(int n)
+int print_sign(int n)
 {
 	int i;
 
