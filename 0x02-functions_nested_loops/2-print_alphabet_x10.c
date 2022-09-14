@@ -20,12 +20,5 @@ void print_alphabet_X10(void)
 
 			_putchar(i);
 		_putchar('\n');
-	} 
-}
-
-int main(void)
-{
-	print_alphabet_x10();
-
-	return (0);
+	}
 }
