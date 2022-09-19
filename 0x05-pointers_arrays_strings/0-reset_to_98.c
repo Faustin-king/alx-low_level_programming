@@ -13,12 +13,5 @@
 
 void reset_to_98(int *n)
 {
-	int a;
-
-	a = 98;
-
-	a = *n;
-
-	printf("a=%d\n", a);
-	printf("n=%d\n", *n);
+	*n = 98;
 }
