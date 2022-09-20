@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 
@@ -17,9 +16,9 @@ void puts2(char *str)
 
 	while (*(str + i))
 	{
-		putchar(*(str + i));
+		_putchar(*(str + i));
 		i = i + 2;
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
