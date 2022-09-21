@@ -20,8 +20,8 @@ void print_rev(char *s)
 
 	while (i >= 0)
 	{
-		printf("%c Reverse the String: ", s[i]);
+		putchar(s[i]);
 		i--;
 	}
-	printf("\n");
+	putchar('\n');
 }
