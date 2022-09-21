@@ -11,7 +11,7 @@
 
 void rev_string(char *s)
 {
-	char str[7] = "Africa";
+	char str[] = " ";
 
 	int i = (strlen(s) - 1);
 
