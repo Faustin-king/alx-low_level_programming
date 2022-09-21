@@ -12,7 +12,16 @@
 
 void print_rev(char *s)
 {
-	int len;
+	char str[11] = "Alx Africa";
 
-	len = strlen(s);
+	int i = (strlen(s) - 1);
+
+	s = str;
+
+	while (i >= 0)
+	{
+		printf("%c Reverse the String: ", s[i]);
+		i--;
+	}
+	printf("\n");
 }
