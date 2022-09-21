@@ -12,7 +12,7 @@
 
 void print_rev(char *s)
 {
-	char str[11] = "Alx Africa";
+	char str[11] = "Holberton!";
 
 	int i = (strlen(s) - 1);
 
