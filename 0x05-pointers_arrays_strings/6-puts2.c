@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 
@@ -12,12 +13,18 @@
 
 void puts2(char *str)
 {
-	int i = 0;
+	int length, i;
 
-	while (*(str + i))
+	length = 0;
+
+	while (str[length] != '\0')
 	{
-		putchar(*(str + i));
-		i = i + 2;
+		length++;
+	}
+
+	for (i = 0; i < length; i += 2)
+	{
+		putchar(str[i]);
 	}
 
 	putchar('\n');
