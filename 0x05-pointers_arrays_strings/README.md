@@ -24,3 +24,11 @@ FILE 3-puts.c : prints a string, followed by a new line, to stdout.
 
 
 Prototype: void _puts(char *str);
+
+FILE 4-print_rev.c :  prints a string, in reverse, followed by a new line.
+
+
+
+Prototype: void print_rev(char *s);
+
+
