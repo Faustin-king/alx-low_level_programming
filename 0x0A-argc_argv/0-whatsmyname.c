@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 
-/** 
+/**
 * main - prints the name of the program
 * @argc: number of arugments
 * @argv: An array of arguments
@@ -10,7 +10,7 @@
 * Return: Always 0 (Success)
 */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
@@ -21,5 +21,5 @@ int main(int argc, char* argv[])
 	{
 		printf("name[%d] = %s\n", i, argv[i]);
 	}
-	return 0;
+	return (0);
 }
