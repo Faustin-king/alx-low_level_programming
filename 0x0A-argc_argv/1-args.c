@@ -13,6 +13,6 @@
 
 int main(int argc, char* argv[] __attribute__((unused)))
 {
-	printf("number of arguments = %d\n", argc);
+	printf("number of arguments = %d\n", argc - 1);
 	return (0);
 }
