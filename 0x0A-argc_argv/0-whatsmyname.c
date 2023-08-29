@@ -3,9 +3,9 @@
 
 /**
  * main - print the name of the program.
- * @argc : an integer variable that represents the number of 
+ * @argc : an integer variable that represents the number of
  * command line arguments passed to the program when it is executed
- * @argv: an array of strings (character pointers) that 
+ * @argv: an array of strings (character pointers) that
  * holds the command line arguments passed to the program.
  * Return: Always 0 (Success)
  */
